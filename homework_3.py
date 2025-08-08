@@ -7,9 +7,9 @@ class Person:
 
     def introduce(self):
         if self.higher_education:
-            print(f"Hello my name is {self.name}, I was born in {self.birth_date} and currently I'm working as {self.occupation} and I have a higher education.")
+            print(f"Hello my name is {self.name}, I was born in {self.birth_date} so I'm {self.age} years old, currently I'm working as {self.occupation} and I have a higher education.")
         else:
-            print(f"Hello my name is {self.name}, I was born in {self.birth_date} and currently I'm working as {self.occupation} and I don't have a higher education.")
+            print(f"Hello my name is {self.name}, I was born in {self.birth_date} so I'm {self.age} years old, currently I'm working as {self.occupation} and I don't have a higher education.")
 
     @property
     def age(self):
