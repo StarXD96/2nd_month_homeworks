@@ -83,7 +83,3 @@ if __name__ == '__main__':
     delete_book(2)
     delete_book(7)
     delete_book(10)
-
-    books = get_books_with_genres()
-    for book in books:
-        print(book)
